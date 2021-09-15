@@ -9,6 +9,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UPC.APIBusiness.DBContext",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UPC.APIBusiness.DBEntity", "UPC.APIBusiness\UPC.APIBusiness.DBEntity\UPC.APIBusiness.DBEntity.csproj", "{84C70DB5-386E-4A03-B176-CDDE14B2E371}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Bussiness Entity", "00. Bussiness Entity", "{983E0776-ED5F-42A8-B429-5D001CEE6AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPC.NoobCryptStore.BE", "UPC.NoobCryptStore.BE\UPC.NoobCryptStore.BE.csproj", "{149B984B-F607-4062-B378-474C6E688808}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Data Access", "01. Data Access", "{0A0991CF-E9E2-4687-93D5-7AEDF08D06CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Bussiness Logic", "02. Bussiness Logic", "{EC76AF66-650C-4288-983E-16DD31A7E42F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPC.NoobCryptStore.DA", "UPC.NoobCryptStore.DA\UPC.NoobCryptStore.DA.csproj", "{8A89320D-F8D9-4C59-9158-F86C0FF146A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPC.NoobCryptStore.BL", "UPC.NoobCryptStore.BL\UPC.NoobCryptStore.BL.csproj", "{EBE6E555-1D74-4D55-84BA-A7D5CE5D259D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +39,26 @@ Global
 		{84C70DB5-386E-4A03-B176-CDDE14B2E371}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84C70DB5-386E-4A03-B176-CDDE14B2E371}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84C70DB5-386E-4A03-B176-CDDE14B2E371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149B984B-F607-4062-B378-474C6E688808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149B984B-F607-4062-B378-474C6E688808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149B984B-F607-4062-B378-474C6E688808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149B984B-F607-4062-B378-474C6E688808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A89320D-F8D9-4C59-9158-F86C0FF146A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A89320D-F8D9-4C59-9158-F86C0FF146A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A89320D-F8D9-4C59-9158-F86C0FF146A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A89320D-F8D9-4C59-9158-F86C0FF146A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE6E555-1D74-4D55-84BA-A7D5CE5D259D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE6E555-1D74-4D55-84BA-A7D5CE5D259D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE6E555-1D74-4D55-84BA-A7D5CE5D259D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE6E555-1D74-4D55-84BA-A7D5CE5D259D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{149B984B-F607-4062-B378-474C6E688808} = {983E0776-ED5F-42A8-B429-5D001CEE6AB6}
+		{8A89320D-F8D9-4C59-9158-F86C0FF146A4} = {0A0991CF-E9E2-4687-93D5-7AEDF08D06CD}
+		{EBE6E555-1D74-4D55-84BA-A7D5CE5D259D} = {EC76AF66-650C-4288-983E-16DD31A7E42F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1AC56CB6-3BB8-4C68-9CC6-38B04B1E63F1}
